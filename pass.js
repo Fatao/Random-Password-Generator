@@ -1,7 +1,7 @@
 var password = document.getElementById("password");
 
 function generatorPassword() {
-  var chars = "0123456789abcdefghijklmnopqrstuvxyz@#$&?£¢€¥";
+  var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvxyz@#$&?£¢€¥";
   var passwordLength = 13;
   var password = "";
   for (var i = 0; i < passwordLength; i++) {
