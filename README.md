@@ -1,15 +1,11 @@
-# Random-Password-Generator-
-Generate strong and secured password . 
-# Password Generator
-import random
-import string
-# Define the characters that can be used in the password
-characters = string.ascii_letters + string.digits + string.punctuation
-# Function to generate a password of a specified length
-def generate_password(length):
-# Generate a password of the specified length
-password = ''.join(random.choice(characters) for i in range(length))
-return password
-# Test the function with a password length of 12
-print(generate_password(12))
+# Random Password Generator
+Secure and Unique Passwords Instantly
+Enhance your online security with a strong and secure random password. Just click the button to generate a unique password and protect your accounts from unauthorized access.
+
+Features:
+Generate a strong password instantly.
+Copy the password to your clipboard for easy use.
+Designed to help you improve your online security.
+
+
 

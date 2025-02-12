@@ -1,6 +1,6 @@
 function generatorPassword() {
   var chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvxyz@#$&?£¢€¥";
-  var passwordLength = 13;
+  var passwordLength = 8;
   var newPassword = "";
 
   for (var i = 0; i < passwordLength; i++) {
